@@ -1,0 +1,52 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    max-width: 280px;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: rgb(233, 229, 229);
+    border-top: .5rem solid #353b48;
+    border-radius: 0.2em;
+    box-shadow: 2px 2px 6px rgb(196, 195, 195);
+
+    font-size: .8em;
+}
+.login-form div {
+    display: flex;
+    padding: .5rem 0;
+}
+.login-form .input-group {
+    display: flex;
+    flex-direction: column;
+}
+.checkbox-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.checkbox-group label {
+    margin-left: .5rem;
+}
+
+.login-form button {
+    cursor: pointer;
+    border: none;
+    border-radius: 0.2em;
+    background-color: #353b48;
+    color: white;
+    padding: .8em 0;
+    font-size: 1em;
+}
+.login-form button:hover {
+    background-color: #3c4557;
+}
+
+.login-form input {
+    height: 2rem;
+    font-size: 1.5em;
+    padding: .1em .5em;
+    color: #718093;
+}
